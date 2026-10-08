@@ -1,0 +1,6 @@
+{
+  "name": "Cloud Accounting System",
+  "description": "Enterprise-grade Cloud Accounting, GST Billing, Delivery Challan, Inventory and Multi-Warehouse Stock Management system with Role-Based Access Control and Supabase integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

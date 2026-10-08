@@ -1,11 +1,42 @@
-<div align="center">
+# Cloud Accounting System
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Enterprise-grade Cloud Accounting, GST Invoicing, Delivery Challans, Multi-Warehouse Inventory, and Double-Entry Bookkeeping platform.
 
-  <h1>Built with AI Studio</h2>
+## Overview
+Cloud Accounting System is a modern, responsive web application engineered for small-to-medium businesses and enterprises. It provides comprehensive financial workflows compliant with GST regulations, automated debit/credit ledger posting, multi-warehouse stock management, delivery challan dispatch, and real-time analytics.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Core Features
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **GST Billing & Invoicing**: Comprehensive tax calculation (CGST, SGST, IGST, UTGST, and Cess), multi-item invoices, payment receipts, printable tax invoice formats, and dynamic UPI QR code generator.
+- **Delivery Challan Management**: Dispatch delivery challans with conversion to tax invoices, warehouse tracking, and PDF/print templates.
+- **Multi-Warehouse Inventory**: Stock catalog, multi-depot inventory tracking, stock adjustments, batch/serial tracking, and stock movement logs.
+- **Purchases & Inward Supplies**: Purchase orders, inward bills, and debit note management.
+- **Double-Entry Accounting Ledgers**: General ledger, chart of accounts, automated journal entries for invoices, purchases, payments, and expenses.
+- **Parties & Contacts**: Customer and supplier directory with receivables/payables balance tracking.
+- **Role-Based Access Control (RBAC)**: Role permissions for Super Admin, Admin, Accountant, Sales Staff, and Warehouse Staff.
+- **Supabase & Local Engine**: Cloud PostgreSQL backend support with Row Level Security (RLS) policies and enterprise local fallback storage.
 
-</div>
+## Tech Stack
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Motion
+- **Database**: PostgreSQL / Supabase ready (`supabase/schema.sql`)
+
+## Getting Started
+
+### Installation
+```bash
+npm install
+```
+
+### Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+### Build
+```bash
+npm run build
+```
